@@ -1,0 +1,28 @@
+.TextCard {
+  max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+}
+
+.TextCard img {
+  margin: 16px auto;
+}
+
+.TextCard h2 {
+  margin: 8px 0;
+}
+
+.TextCard p {
+  max-width: 15ch;
+  line-height: 130%;
+}
+/*# sourceMappingURL=TextCard.css.map */
